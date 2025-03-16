@@ -1,0 +1,26 @@
+@import "../variables.scss";
+
+
+header{
+    
+
+    .header-content-span{
+        display: flex;
+        justify-content: center;
+        gap: 119px;
+        margin: 6px 0;
+        .header-spans{
+            display: flex;
+            gap: 9px;
+    
+            .span-text{
+            
+                font-size: 12px;
+                .span-contrast{
+                    font-weight: 600;
+                    color: #3019B2;
+                }
+            }
+        }
+    }
+}
