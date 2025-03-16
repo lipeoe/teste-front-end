@@ -1,0 +1,57 @@
+@import "../../styles/variables.scss";
+
+.category-container{
+    margin-top: 39px;
+    display: flex;
+    justify-content: center;
+    .category-content{
+        display: flex;
+        justify-content: center;
+        
+
+        gap: 42px;
+        .category-item-container{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            
+            cursor: pointer;
+
+            gap: 22px;
+            .category-card{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 128px;
+                height: 128px;
+                border-radius: 10px;
+
+                background-color: #F4F4F4;
+                box-shadow: 5px 5px 15px rgba(0, 4, 11, 0.13);
+                .category-image{
+                    width: 61px;
+                    height: 61px;
+                    transition: fill 0.3s ease;
+                }
+                transition: 0.8s ease;
+            }
+            .category-card:hover{
+                background-color: $white-color;
+                .category-image:hover{
+                    fill: $blue-color;
+                }
+            }
+            .category-title{
+                font-size: 14px;
+                font-weight: 600;
+                color: $strong-grey;
+
+                transition: 0.8s ease;
+            }
+            .category-title:hover{
+                color: $blue-color;
+            }
+        }
+    }
+
+}
