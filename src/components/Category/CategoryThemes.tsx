@@ -1,11 +1,11 @@
 import React from "react";
-import TecnologiaIMG from "../../assets/svg/Tecnologia.svg"
-import SupermercadoIMG from "../../assets/svg/Supermercado.svg"
-import BebidasIMG from "../../assets/svg/Bebidas.svg"
-import FeramentasIMG from "../../assets/svg/Ferramentas.svg"
-import SaudeIMG from "../../assets/svg/Saude.svg"
-import EsporteIMG from "../../assets/svg/Corrida.svg"
-import ModaIMG from "../../assets/svg/Moda.svg"
+import TecnologiaIMG from "../../assets/images/tecnologia.png"
+import SupermercadoIMG from "../../assets/images/supermercados.png"
+import BebidasIMG from "../../assets/images/whiskey.png"
+import FeramentasIMG from "../../assets/images/ferramentas.png"
+import SaudeIMG from "../../assets/images/saude.png"
+import EsporteIMG from "../../assets/images/corrida.png"
+import ModaIMG from "../../assets/images/moda.png"
 
 import "../Category/CategoryThemes.scss"
 
@@ -26,8 +26,8 @@ const CategoryThemes: React.FC = () =>{
             <div className="category-container">
                 <div className="category-content">
                     {categories.map((item, index) => (
-                        <a className="category-item-container">
-                                <div className="category-card" key={index}>
+                        <a className="category-item-container" key={index}>
+                                <div className="category-card">
                                     <img className="category-image" src={item.Image} alt="" />
                                 </div>
                             <div>

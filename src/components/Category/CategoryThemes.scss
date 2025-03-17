@@ -27,7 +27,7 @@
                 border-radius: 10px;
 
                 background-color: #F4F4F4;
-                box-shadow: 5px 5px 15px rgba(0, 4, 11, 0.13);
+                box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.22);
                 .category-image{
                     width: 61px;
                     height: 61px;
@@ -37,9 +37,6 @@
             }
             .category-card:hover{
                 background-color: $white-color;
-                .category-image:hover{
-                    fill: $blue-color;
-                }
             }
             .category-title{
                 font-size: 14px;
