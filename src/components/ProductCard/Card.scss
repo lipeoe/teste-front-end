@@ -1,0 +1,79 @@
+@import "../../styles/variables.scss";
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+
+    padding: 16px 13px;
+
+    width: 304px;
+    height: 500px;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 3px 19px rgba(0, 0, 0, 0.22);
+
+    .item-content{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+
+
+        .item-title{
+            margin-top: 9px;
+            font-size: 15px;
+            font-weight: 300;
+        }
+        .price-content{
+            .fake-price{
+                font-size: 16px;
+                font-weight: 400;
+                color: $medium-grey;
+
+                margin-top: 12px;
+                margin-bottom: 2px;
+
+                text-decoration: line-through;
+            }
+            .product-price{
+                font-size: 20px;
+                font-weight: 700;
+                color: $strong-grey;
+
+                margin-bottom: 2px;
+            }
+            .price-2{
+                font-size: 12px;
+                font-weight: 400;
+                color: $strong-grey;
+            }
+        }
+        .delivery-type{
+            font-size: 12px;
+            font-weight: 400;
+            color: $blue-color;
+        }
+        .card-btn{
+            font-size: 14px;
+            font-weight: 700;
+            text-align: center;
+            color: $white-color;
+
+
+
+            width: 275px;
+            height: 44px;
+            padding: 10px;
+
+            border: none;
+            border-radius: 4px;
+
+            background-color: $blue-color;
+
+
+
+            margin-top: auto;
+        }
+        
+    }
+}
