@@ -1,0 +1,140 @@
+@import "../../styles/variables.scss";
+
+
+.modal-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    background-color: rgba(0, 0, 0, 0.54);
+    
+    .modal-overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+
+        width: 100%;
+        height: 100%;
+
+        background-color: rgba(0, 0, 0, 0.54);
+    }
+    .modal-content-container{
+        position: relative;
+        z-index: 2;
+
+        border-radius: 6px;
+
+        background-color: $white-color;
+
+        max-width: 769px;
+        height: 299px;
+
+        width: 100%;
+
+
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .modal-close{
+        position: absolute;
+        top: 17px;
+        right: 29px;
+
+        background-color: transparent;
+
+        border: none;
+
+        cursor: pointer;
+    }
+    .product-infos{
+        .product-name{
+            font-size: 20px;
+            font-weight: 400;
+            color: $strong-grey;
+        }
+        .product-price{
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 32px;
+            color: $strong-grey;
+        }
+        .product-description{
+            font-family: $font-2;
+            font-size: 10px;
+            font-weight: 500;
+
+            color: $medium-grey;
+        }
+        .product-details{
+            font-family: $font-2;
+            font-size: 11px;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        .product-buttons{
+            display: flex;
+            margin-top: 32px;
+
+            gap: 12px;
+
+            .product-count{
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+
+                border: 1px solid $medium-grey;
+                border-radius: 4px;
+
+                width: 110px;
+                height: 36px;
+
+
+                .minusBtn, .plusBtn{
+                    display: flex;
+                    align-items: center;
+        
+                    gap: 3.65px;
+                    background-color: transparent;
+                    border: none;
+
+                    cursor: pointer;
+                }
+
+                .value{
+                    color: $puple-color;
+
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+            }
+            .buyBtn{
+                width: 188px;
+                height: 36px;
+
+                background-color: $yellow-color;
+                border: none;
+                border-radius: 6px;
+                
+                font-size: 14px;
+                font-weight: 700;
+                color: $puple-color;
+
+                text-align: center;
+
+                cursor: pointer;
+            }
+        }
+    }
+
+}
