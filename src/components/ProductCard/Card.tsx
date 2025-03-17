@@ -1,6 +1,6 @@
 import React from "react";
 import "../ProductCard/Card.scss"
-import { IProduct } from "../../assets/models/IProduct";
+import { IProduct } from "../../models/IProduct";
 
 
 interface ICard{

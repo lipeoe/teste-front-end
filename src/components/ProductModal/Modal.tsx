@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../ProductModal/Modal.scss"
 import Closebtn from "../../assets/svg/Closebtn.svg"
 
-import { IProduct } from "../../assets/models/IProduct";
+import { IProduct } from "../../models/IProduct";
 
 import MinusBtn from "../../assets/svg/minus.svg"
 import PlusBtn from "../../assets/svg/plus.svg"

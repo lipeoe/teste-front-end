@@ -3,7 +3,7 @@ import "../Showcase/Showcase.scss"
 import { API_URL } from "../../services/ApiEconverse";
 import Card from "../ProductCard/Card";
 import Modal from "../ProductModal/Modal";
-import { IProduct } from "../../assets/models/IProduct";
+import { IProduct } from "../../models/IProduct";
 
 import prevBtn from "../../assets/svg/prev.svg"
 import nextBtn from "../../assets/svg/next.svg"
