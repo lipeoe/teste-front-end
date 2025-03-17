@@ -1,0 +1,48 @@
+@import "../../styles/variables.scss";
+
+.carousel-container{
+
+    .carousel-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        .carousel{
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            
+            .cards{
+                display: flex;
+                align-items: center;
+
+                width: 1270px;
+
+                margin: 20px;
+                gap: 18px;
+
+                transition: transform 0.6s ease-in-out;
+            }
+        }
+        .carousel-prevBtn, .carousel-nextBtn{
+            width: 32px;
+            height: 32px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background-color: $white-color;
+            border-radius: 50%;
+            border: none;
+
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        }
+        .carousel-prevBtn:disabled, .carousel-nextBtn:disabled{
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+    }
+}
