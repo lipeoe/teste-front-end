@@ -1,60 +1,63 @@
 # Teste Econverse: Vaga Desenvolvedor Front-End
 
-
 ### Vem ser #Econverse!
 
-Segue abaixo as instruções para a execução do teste.
 
-## Instruções
+# Pré-requisitos
+Para o funcionamento correto do projeto é necessário ter instalado em sua máquina:
+
+- [Node.js](https://nodejs.org/) 
+- [Git](https://git-scm.com)
+
+# Tecnologias utilizadas:
+- **Framework:** [React](https://react.dev) com TypeScript
+- **Linguagem:** [TypeScript](https://www.typescriptlang.org)
+- **Pré-processador CSS:** [Sass](https://sass-lang.com)
+
+
+# Instruções
 
 Para clonar o repositório e ter acesso ao código basta realizar os seguintes passos:
 
-- Botão direito do mouse na área de trabalho
-- Abrir o terminal
-- Digitar o seguinte comando:
+-  ## Criar uma nova pasta:
+
+**Pela área de trabalho:**
+
+`
+Botão direito do mouse na área de trabalho > Nova pasta > "teste-front-end"
+`
+
+**Pelo terminal**
+
+```
+mkdir nome_da_pasta && cd nome_da_pasta
+```
+**Ainda no terminal você pode clonar o repositório com o seguinte comando:**
 
 ```bash
 git clone https://github.com/lipeoe/teste-front-end
 ```
+Ou entrar no `Visual Studio Code > abrir a pasta > terminal > colar comando`. 
 
-Entre no Visual Studio Code e abra a pasta. 
+- ## Dependências
 
+**Instale as dependências necessárias para o projeto da seguinte forma:**
 
+Com o comando `npm install`, o gerenciador de pacotes irá buscar todas as dependências presentes no aquivo `package.json` automaticamente. 
+```
+npm install
+```
 
+- ## Execução
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Para executar o projeto como desenvolvedor, digite o seguinte comando no terminal:
+```
+npm run start
+```
+Um servidor será aberto na porta: [http://localhost:3000](http://localhost:3000)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Para compilar a **build** do projeto e enviá-lo a produção, basta executar no terminal:
+```
+npm run build
+```
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
