@@ -1,1 +1,161 @@
 @import "../../styles/variables.scss";
+
+.footer-content-container{
+    background-color: $puple-color; 
+
+    margin-top: 90px;
+
+
+    .footer-top-content{
+        margin: 0 auto;
+        width: 1270px;
+        height: 162px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .newsletter-text{
+
+
+            .newsletter-main-txt{
+                font-size: 32px;
+                font-weight: 600;
+                color: $white-color;
+
+            }
+            .newsletter-secondary-txt{
+                font-size: 14px;
+                font-weight: 300;
+                color: $white-color;
+                width: 515px;
+            }
+        }
+        .newsletter-form{
+            .inputs{
+                display: flex;
+                align-items: center;
+                gap: 8px;
+
+                margin-bottom: 5px;
+            }
+            .btn-form-footer{
+                border: none;
+                border-radius: 8px;
+                background-color: $yellow-color;
+
+                text-align: center;
+
+                font-size: 14px;
+                font-weight: 600;
+
+                width: 157px;
+                height: 42px;
+
+                cursor: pointer;
+                
+            }
+            .terms-container{
+                display: flex;
+                align-items: center;
+                gap: 3px 4px;
+
+                #check-terms{
+                    border: 1px solid #8C342B;
+                }
+                .label-footer{
+                    color: $white-color;
+                    font-weight: 400;
+                    font-size: 14px;
+                    
+                }
+            }
+
+        }
+    }
+
+    .footer-mid-content-container{
+        background-color: $footer-grey-color;
+        display: flex;
+        justify-content: center;
+        height: 282px;
+        .footer-mid-content{
+            display: flex;
+            align-items: center;
+            gap: 90px;
+            width: 1270px;
+
+            .econverse-content{
+                .logo-footer{
+                    width: 168px;
+                    height: 48px;
+
+                    margin-bottom: 18px;
+                }
+                .footer-logo-text{
+                    font-size: 14px;
+                    font-weight: 300;
+
+                    width:354px ;
+
+                    color: $strong-grey;
+
+                    margin-bottom: 27px;
+                }
+                .econverse-socialmedia{
+                    .social-media-list{
+                        display: flex;
+                        gap: 26px;
+
+                        list-style: none;
+
+                    }
+                }
+            }
+            .divisor{
+                width: 1px;
+                height: 198px;
+                background-color: rgba(63, 63, 64, 0.18);
+            }
+
+            .econverse-infos{
+                display: flex;
+                gap: 100px;
+
+                .econverse-info-content{
+                    .item-title-footer{
+                        margin-bottom: 4px;
+                        font-size: 16px;
+                        font-weight: 700;
+                        color: rgba(63, 63, 64, 0.71);
+                    }
+                    .econverse-itens-info{
+                        list-style: none;
+                        .econverse-itens-footer{
+                            margin-top: 16px;
+                            .econverse-item-text{
+                                
+                                font-size: 14px;
+                                font-weight: 400;
+                                text-decoration: none;
+                                color: rgba(63, 63, 64, 0.71);
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-bottom-content{
+        background-color: $white-color;
+        .footer-copyright{
+            font-size: 13px;
+            font-weight: 400;
+            text-align: center;
+            
+            padding: 13px;
+        }
+    }
+}
