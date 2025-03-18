@@ -1,0 +1,41 @@
+@import "../../styles/variables.scss";
+
+
+.branding-container{
+    margin-top: 90px;
+
+    .branding-section-title{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        color: $blue-color;
+        margin-bottom: 32px;
+    }
+    
+    .branding-content{
+        display: flex;
+        justify-content: center;
+    
+        .branding-list{
+            display: flex;
+            gap: 42px;
+    
+            .branding-item{
+    
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+                width: 211px;
+                height: 211px;
+    
+    
+                list-style: none;
+                background-color: $white-color;
+                border-radius: 50%;
+    
+                box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.13);
+            }
+        }
+    }
+}

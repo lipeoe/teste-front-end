@@ -4,6 +4,7 @@ import Banner from "../components/Banner/Banner";
 import CategoryThemes from "../components/Category/CategoryThemes";
 import Showcase from "../components/Showcase/Showcase";
 import PartnerSection from "../components/Partners/PartnerSection";
+import BrandingNavigation from "../components/Branding/BrandingNavigation";
 
 const Home: React.FC = () => {
     return(
@@ -14,6 +15,8 @@ const Home: React.FC = () => {
                 <CategoryThemes/>
                 <Showcase type="main"/>
                 <PartnerSection/>
+                <Showcase type="secondary"/>
+                <BrandingNavigation/>
                 <Showcase type="secondary"/>
             </main>
         </>
