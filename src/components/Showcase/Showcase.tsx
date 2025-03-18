@@ -5,6 +5,8 @@ import Card from "../ProductCard/Card";
 import Modal from "../ProductModal/Modal";
 import { IProduct } from "../../models/IProduct";
 
+
+
 import prevBtn from "../../assets/svg/prev.svg"
 import nextBtn from "../../assets/svg/next.svg"
 
@@ -32,6 +34,20 @@ const Showcase: React.FC<IShowCase> = ({type}) =>{
                 }
             }catch(error){
                 console.error("Erro: ", error)
+
+                //Para acessar o json localmente
+                try{
+                    const localResponse = await fetch('/produtos.json')
+                    if(!localResponse.ok){
+                        throw new Error(`${localResponse.status} - ${localResponse.statusText}`)
+                    }
+                    const localData = await localResponse.json()
+                    if(localData && localData.products){
+                        setProducts(localData.products)
+                    }
+                }catch(localError){
+                    console.error(localError)
+                }
             }
         }
         fetchProducts()
