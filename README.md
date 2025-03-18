@@ -1,12 +1,26 @@
-# Getting Started with Create React App
+# Teste Econverse: Vaga Desenvolvedor Front-End
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Vem ser #Econverse!
 
-In the project directory, you can run:
+Segue abaixo as instruções para a execução do teste.
 
-### `npm start`
+## Instruções
+
+Para clonar o repositório e ter acesso ao código basta realizar os seguintes passos:
+
+- Botão direito do mouse na área de trabalho
+- Abrir o terminal
+- Digitar o seguinte comando:
+
+```bash
+git clone https://github.com/lipeoe/teste-front-end
+```
+
+Entre no Visual Studio Code e abra a pasta. 
+
+
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
