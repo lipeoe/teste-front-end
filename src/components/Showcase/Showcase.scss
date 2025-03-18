@@ -1,5 +1,73 @@
 @import "../../styles/variables.scss";
 
+
+.section-title-container{
+    margin-top: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+
+    text-align: center;
+
+    .divisor{
+        height: 1px;
+        width: 360px;
+        background-color: #DEDEDE;
+    }
+    .title-section{
+        font-size: 30px;
+        font-weight: 700;
+        color: $blue-color;
+    }
+}
+
+.products-navigation-container{
+        display: flex;
+        justify-content: center;
+    .products-navigation-content{
+
+
+        .list-itens{
+            display: flex;
+            justify-content: center;
+            
+            .itens{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                list-style: none;
+                border: 1px solid #BDBDBD;
+
+                font-size: 16px;
+                font-weight: 400;
+                text-align: center;
+
+                width: 214px;
+                height: 40px;
+
+                transition: 0.2s ease-in-out;
+            }
+            .itens:hover{
+                font-weight: 700;
+                color: $blue-color;
+            }
+        }
+    }
+}
+
+.related-products{
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+
+    color: $strong-grey;
+}
+
+
+
+
 .carousel-container{
 
     .carousel-wrapper{
@@ -38,6 +106,8 @@
             border: none;
 
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+            cursor: pointer;
 
         }
         .carousel-prevBtn:disabled, .carousel-nextBtn:disabled{

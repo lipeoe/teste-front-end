@@ -3,7 +3,7 @@ import Header from "../components/Header/Header";
 import Banner from "../components/Banner/Banner";
 import CategoryThemes from "../components/Category/CategoryThemes";
 import Showcase from "../components/Showcase/Showcase";
-import SectionTitle from "../components/Sections/Sections";
+import PartnerSection from "../components/Partners/PartnerSection";
 
 const Home: React.FC = () => {
     return(
@@ -12,8 +12,9 @@ const Home: React.FC = () => {
             <main>
                 <Banner/>
                 <CategoryThemes/>
-                <SectionTitle/>
-                <Showcase/>
+                <Showcase type="main"/>
+                <PartnerSection/>
+                <Showcase type="secondary"/>
             </main>
         </>
     )
